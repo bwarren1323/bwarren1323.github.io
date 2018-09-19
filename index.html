@@ -1,0 +1,102 @@
+<!DOCTYPE html
+<html>
+    <head>
+        <title>Bree's Website</title>
+    <style>
+        body{
+            background: rgb(126, 141, 207);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            font-family: calibri;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+        heading {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        #all-content {
+            max-width: 800px;
+            margin: auto;
+        }
+        /* navigation menu */
+        nav {
+            background: rgb(111, 179, 171);
+            margin: 0 auto;
+            margin-bottom: 25px;
+            display: flex;
+            padding: 10px;
+            border: 3px solid gray;
+            border-radius: 30px;
+        }
+        nav header {
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            flex: 1;
+        }
+        nav ul {
+            list-style-image: none;
+        }
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        nav a {
+            text-decoration: none ;
+            color: #fff;
+        }
+        
+        /* main container area beneath menu */
+        main {
+            background: rgb(160, 126, 207);
+            display: flex;
+            border: 4px dotted white;
+            border-radius: 30px;
+        } 
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        .interests header {
+            font-size: 1.45em;
+        }
+    </style>    
+    </head>
+        <body>
+            <div id="all-contents">
+                <nav>
+                    <header><h1>Bree's Website</h1></header>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </nav>
+            
+                <main>
+                    <div class="sidebar">
+                        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/42090047_10214556242153986_3197805290212818944_n.jpg?_nc_cat=0&oh=1efa27d0ae9639b80aa9b68dfa932d40&oe=5C2A6AB1" height="350" width="300"> 
+                    </div>
+                    <div class="content">
+                        <header><b><h2>Bree Warren</h2></b></header>
+                        <p>Student at Fontainbleau High School</p>
+                        <section class="interests">
+                            <header>Interests</header>
+                            <ul>
+                                <li>I love to listen to music</li>
+                                <li>I enjoy being around animals and little children</li>
+                                <li>I am on the Girls Varsity Basketball Team at Fontainbleau High School</li>
+                            </ul>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </body>
+</html>
